@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chat-with-data"
+version = "0.1.0"
+description = ""
+authors = ["Abdelrahman <abdelrahman.m.a.osman@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+nltk = "^3.9.1"
+numpy = "^2.2.0"
+pytest = "^8.3.4"
+qdrant-client = "^1.12.1"
+pymongo = ">=4.9,<4.10"
+motor = "^3.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
